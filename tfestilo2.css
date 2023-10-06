@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://img.freepik.com/fotos-premium/fundo-abstrato-parede-azul-claro_127755-910.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px 300px;
+}
+
+.título {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 130px;
+  font-family: "arial";
+}
+
+.tabela {
+  top: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "arial";
+  border-color: rgb(61, 161, 255);
+}
+
+.cinza {
+  background-color: lightgray;
+}
+
+th {
+  font-family: "arial";
+  color: rgb(61, 161, 255);
+}
+
+caption {
+  caption-side: bottom;
+  text-align: left;
+  font-family: "arial";
+  margin-bottom: 200px;
+}
+
+.imagemcurrículo {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+}

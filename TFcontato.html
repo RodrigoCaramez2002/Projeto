@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contato</title>
+    <link rel="stylesheet" href="tfestilo3.css" />
+  </head>
+  <body>
+    <h4 class="título">FORMULÁRIO PARA CONTATO</h4>
+    <div class="box">
+      <form action="">
+        <fieldset>
+          <legend><b>CADASTRO PARA CONTATO</b></legend>
+          <br></br>
+          <div class="forms">
+            <label for="nome" class="label" >Nome Completo:</label>
+            <input type="text" id="nome" name="nome" class="input"/>
+          </div>
+          <br></br>
+          <div class="forms">
+            <label for="telefone" class="label" >- Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" class="input"/>
+          </div>
+          <br></br>
+          <div class="forms">
+            <label for="email" class="label" >E-mail:</label>
+            <input type="email" id="email" name="email" class="input"/>
+          </div> 
+          <br></br>
+          <div class="forms">
+            <label for="senha" class="label" >- Senha:</label>
+            <input type="password" id="senha" name="senha" class="input"/>
+          </div> 
+          <br></br>
+          <label>Data de nascimento:</label>
+          <input type="date" id="data" name="data" />
+          <br></br>
+          <br>
+          Conta:
+          <br>
+          <input type="radio" name="conta" value="pf" id="conta"> PF
+          <input type="radio" name="conta" value="pj" id="conta"> PJ
+          <br></br>
+          <br>
+          <div>
+            <label for="serviços" >Qual serviço deseja contratar</label>
+            <select name="serviços" id="serviços" >
+              <option value="Homepage">Desenvolvimento de HomePage</option>
+              <option value="Estática">Desenvolvimento de Página Estática</option>
+              <option value="Dinâmica">Desenvolvimento de Página Dinâmica</option>
+              <option value="Avançada">Desenvolvimento de Página Super Avançada</option>
+            <select/>
+          </div>
+          <br></br>
+          <label for="horário"> - Horário de agendamento:</label>
+          <input type="time" id="horário" name="horário" class="input" min="09:00" max="19:00" required />
+          <br></br>
+          <br>
+            <textarea name="descrição" id="descrição" cols="30" rows="10" placeholder="Descreva o tipo de serviço que você quer contratar..."></textarea>
+          <br></br>
+          <input type="submit" value="Criar" id="submit" name="submit"/>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
